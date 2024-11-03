@@ -1,0 +1,22 @@
+Objetivo: gerar o mapa de volume de chuva excedente por unidade hidrológica (pixels da bacia fornecida - pasta watershed) a partir do arquivo de chuva excedente (pasta total excesso precipitation);
+
+Dicas:
+1. Em cada pasta há arquivos matriciais (.rst, tipo ascii) e arquivos da documentação deles (.rdc). a leitura deles são semelhantes, ambos como txt;
+
+2. Executar os cálculos apenas na delimitação da bacia hidrográfica. O arquivo watershed é um array binário, em que 1 representa bacia e 0 áreas que não são bacia;
+
+	2.1 Informações importantes do arquivo de documentação: número de linhas e colunas;
+	
+	2.2 Evitar utilização de listas, os arquivos devem ser lidos e armazenados em arrays 2D (usar numpy);
+
+	2.3 Utilizar aninhamento laços for para varrer os pixels da bacia hidrográfica (opção 1);
+
+	2.4 Usar indexação/mascará booleana para realizar o cálculo do volume apenas na delimitação da bacia hidrográfica;
+
+3. O volume para cada pixels será o produto da lamina de água pela área do pixel (buscar por resolução espacial no arquivo de documentação). O volume final deve estar em m³, por isso, deve se atentar as conversões das unidade, em especial a da precipitação (mm);
+
+4. Utilizar POO: criar funções para cada processo facilita a correção de possíveis erros;
+
+5. Utilizar a biblioteca GDAL para gerar o arquivo dos volumes por pixels da bacia hidrográfica no formato .tiff. Opcional, pode-se utilizar a RASTERIO;
+
+6. Cria um repositório no GitHub para possíveis comunicações (opcional, mas que pode facilitar a retirada de dúvidas).

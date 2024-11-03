@@ -1,0 +1,26 @@
+file format : IDRISI Raster A.1
+file title  : 
+data type   : integer
+file type   : ascii
+columns     : 2722
+rows        : 1701
+ref. system : british national grid
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 532790.0007890
+max. X      : 560010.0008293
+min. Y      : 127000.0016385
+max. Y      : 144010.0018580
+pos'n error : unknown
+resolution  : 10.0000000
+min. value  : 0
+max. value  : 1
+display min : 0
+display max : 1
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
+lineage     : This file was created by the CONVERT module with the command line: 
+lineage     : 1*H:\Users\dario\OneDrive\Documentos\Mestrado - UFPB 2019\Tutorial - Hidropixel\Parte 3\Tempo de viagem - Rotina desenvolvida por Dário\Dados de entrada\1 - Watershed\bacia.rst*H:\Users\dario\OneDrive\Documentos\Mestrado - UFPB 2019\Tutorial - Hidropixel\Parte 3\Tempo de viagem - Rotina desenvolvida por Dário\Dados de entrada\1 - Watershed\bacia_ASCII.rst*1*1*2

@@ -1,0 +1,4 @@
+__pycache__/
+.micromamba/
+volume_escoamento.tif*
+environment.yml

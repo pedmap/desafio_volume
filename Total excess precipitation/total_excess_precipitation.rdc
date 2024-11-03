@@ -1,0 +1,24 @@
+file format : IDRISI Raster A.1
+file title  :
+data type   : real
+file type   : ascii
+columns     : 2722
+rows        : 1701
+ref. system : british national grid
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 532790.0007890
+max. X      : 560010.0008293
+min. Y      : 127000.0016385
+max. Y      : 144010.0018580
+pos'n error : unknown
+resolution  : 10.0000000
+min. value  : 0
+max. value  : 13.2219
+display min : 0
+display max : 13.2219
+value units : unspecified
+value error : unknown
+flag value  : none
+flag def'n  : none
+legend cats : 0
